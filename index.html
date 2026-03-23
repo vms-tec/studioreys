@@ -15,7 +15,7 @@
 }
 
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;   
     line-height: 1.6;
     background: #0b0b0c;
     color: #f5f5f5;
@@ -42,7 +42,6 @@ h1, h2 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 .hero-content {
     max-width: 500px;
     animation: fadeUp 1.2s ease forwards;
@@ -54,7 +53,7 @@ h1, h2 {
     font-size: 1.5rem;
     line-height: 1.2;
     margin-bottom: 20px;
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
     white-space: nowrap;
 
@@ -68,14 +67,19 @@ h1, h2 {
 }
 
 .btn {
-    display: inline-block;
-    padding: 16px 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 250px; 
+    height: 50px;   
     background: linear-gradient(135deg, #c6a46a, #f2d2a2);
     color: #ffffff;
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
     transition: 0.4s;
+    
 }
 
 .btn:hover {
@@ -154,6 +158,25 @@ footer {
     padding: 60px 20px;
     background: #000;
 }
+.fundo {
+    display: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(marmore.png);
+    background-repeat:repeat;
+    background-size:cover;
+    margin: 0 auto ;
+}
+.fundo2 {
+    display: center;
+    align-items: center;
+    justify-content: center;
+    background-image: url(marmore2.png);
+    background-repeat:repeat;
+    background-size:cover;
+    margin: 0 auto ;
+}
+
 
 @keyframes fadeUp {
     from { opacity:0; transform: translateY(40px); }
@@ -172,9 +195,10 @@ footer {
 </style>
 <section class="hero">
     <div class="hero-content">
-        <h1>Studio Reys<br>Estética Funcional & Massoterapia</h1>
-        <p>Protocolos personalizados que unem tecnologia avançada e técnicas especializadas para transformação corporal, definição e recuperação muscular.</p>
-        <a href="https://wa.me/5511990015920" class="btn">Agendar Avaliação Exclusiva</a>
+        <h1>Tamires Reys<br>Estética Funcional & Massoterapia</h1>
+        <p>Técnicas personalizadas que unem tecnologia para transformação corporal: Redução de dores, redução de medidas, definição e recuperação muscular</p>
+        <a href="https://wa.me/5511990015920" 
+        class="btn"style="text-align:center; margin-top:30px;">Agende seu horário</a>
 
     </div>
 
@@ -201,29 +225,32 @@ footer {
 
 
 
-<section class="fade-up">
-    <h2 class="section-title">Sobre a Profissional</h2>
+<section class="fundo">
+    <h2 class="section-title">Sobre mim</h2>
     <div class="cards">
         
-        <img src="Tami-fundo3.jpg" alt="centralizada" 
+        <img src="Tami-fundo3.jpg" alt="Tamires Reys" 
         style="width: 300px; height: auto; border-radius: 2px; margin: auto;
          display: block; margin-bottom: auto;margin-top: -30px;"> 
         <div class="card" style="font-size: 0.9rem; color: #cfcfcf;">
             <p>
-                Tamires Reys é especialista em Estética Funcional Corporal e Massoterapia Avançada,
-                desenvolvendo protocolos personalizados que unem tecnologia de ponta e técnicas
-                manuais de alta performance.
-            </p>
-            <br>
-            <ul>
-                <li>• Técnicas manuais de alta performance</li>
-                <li>• Estratégias de definição corporal</li>
-                <li>• Recuperação muscular inteligente</li>
-            </ul>
-            <br>
-            <p>
-                Cada cliente passa por avaliação individual para construção de um plano estratégico exclusivo,
-                respeitando biotipo, objetivo e performance.
+                Sou esteticista e massoterapeuta, especializada
+em Estética Funcional Corporal e técnicas manuais
+avançadas, com foco em saúde, recuperação
+muscular e estética corporal.
+Atuo no tratamento de dores crônicas e na
+melhora da performance e recuperação muscular
+de atletas amadores e profissionais, utilizando
+protocolos personalizados de alta performance.
+Também realizo tratamentos para redução de
+medidas, gordura localizada e melhora da
+qualidade da pele, incluindo limpeza de pele,
+tratamento de flacidez e estrias.
+Em cada atendimento realizo uma avaliação
+individual, para desenvolver um protocolo exclusivo,
+respeitando o biotipo, objetivos e necessidades de
+cada cliente.
+
             </p>
         
         </div>
@@ -237,29 +264,98 @@ footer {
 
 
 
-<section class="dark-section fade-up">
+<section class="fundo">
     <h2 class="section-title" style="font-size: 2rem;">💆‍♀️ Massoterapia</h2>
 
     <div class="cards">
 
         <div class="card">
-            <h3>Relaxante</h3>
-            <p>Movimentos leves e suaves que proporcionam relaxamento profundo e bem-estar físico e mental.</p>
+            <h3>Massagem Relaxante</h3>
+            <p>Técnica com movimentos suaves para aliviar o estresse, combater a ansiedade, a insônia e as dores de cabeça, promovendo bem-estar e tranquilidade.</p>
             <div class="price">R$ 180,00</div>
         </div>
 
         <div class="card">
-            <h3>Pedras Quentes</h3>
-            <p>O calor terapêutico das pedras promove relaxamento intenso, melhora da circulação e alívio de tensões.</p>
-            <div class="price">R$ 180,00</div>
+            <h3>Massagem com Pedras Quentes</h3>
+            <p>Terapia com pedras vulcânicas aquecidas para aliviar tensões, melhorar a circulação e equilibrar as energias, ideal para relaxamento e dorescrônicas</p>
+            <div class="price">R$ 200,00</div>
         </div>
 
         <div class="card">
             <h3>Ventosaterapia</h3>
-            <p>Ativa a circulação sanguínea, alivia tensões musculares e auxilia no tratamento de dores articulares e sobrecargas.</p>
-            <div class="price">R$ 180,00</div>
+            <p>Técnica com ventosas para melhorar a circulação, aliviar dores musculares e articulares, liberar toxinas e fortalecer o sistema imunológico</p>
+            <div class="price">R$ 200,00</div>
         </div>
 
+        <div class="card">
+            <h3>Reflexologia Podal</h3>
+            <p>Técnica que aplica pressão em pontos dos pés para aliviar dores, promover relaxamento, melhorar a circulação e equilibrar a energia do corpo</p>
+            <div class="price">R$ 130,00</div>
+        </div>
+
+        <div class="card">
+            <h3>Massagem Desportiva</h3>
+            <p>Técnica de massagem para atletas ou pessoas que praticam atividade física. Preparar os músculos para o exercício e ajudar narecuperação pós treino, reduzindo dores, tensões e risco de lesões.</p>
+            <div class="price">R$ 230,00</div>
+        </div>
+
+        <div class="card">
+            <h3>Liberação Miofascial</h3>
+            <p>Focada em tratar dores edisfunções específicas,trabalhando sobre a fáscia liberando pontos detensão e realinhando a musculatura para alívio dedores crônicas e lesões</p>
+            <div class="price">R$ 280,00</div>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+<section class="fundo2 dark-section">
+    <h2 class="section-title"  style="font-size: 2rem;">📦 Pacotes Terapêuticos</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>Essencial</h3>
+            <p>Massagens: Relaxante | Pedras Quentes | Ventosaterapia | Drenagem Linfática</p>
+            <div class="price">4 sessões – R$ 550,00</div>
+            <p style="font-size:0.9rem; color:#999;">(1 sessão por semana)</p>
+        </div>
+
+        <div class="card">
+            <h3>Modelagem</h3>
+            <p>Massagens: DrenoModeladora | Modeladora</p>
+            <div class="price">4 sessões – R$ 700,00</div>
+            <p style="font-size:0.9rem; color:#999;">(1 sessão por semana)</p>
+        </div>
+
+        <div class="card">
+            <h3>Performance</h3>
+            <p>Massagem Desportiva | Liberação Miofascial</p>
+            <div class="price">4 sessões – R$ 850,00</div>
+        </div>
+    <p style="color:#cfcfcf; max-width:700px; margin-bottom:-20px; margin-top: 25px;">
+        Todos os pacotes de massoterapia <b>não</b> incluem procedimentos estéticos. A duração das sessões duram de <b>45 minutos até 1 hora e 30 minutos</b>, depende do biotipo e a técnica.
+    </p>
+    </div>
+</section>
+
+
+
+
+
+
+
+<section class="fundo">
+    <h2 class="section-title"  style="font-size: 2rem;">Bem-estar e Estética</h2>
+    <div class="cards">
         <div class="card">
             <h3>Drenagem Linfática</h3>
             <p>Técnica com movimentos leves e precisos que estimulam o sistema linfático, reduzem inchaço e promovem desintoxicação do organismo.</p>
@@ -272,24 +368,59 @@ footer {
             <div class="price">R$ 180,00</div>
         </div>
 
-        <div class="card">
-            <h3>Dreno-Modeladora</h3>
-            <p>Protocolo combinado que reduz retenção de líquidos, auxilia na eliminação de toxinas e contribui para a redução de medidas.</p>
+         <div class="card">
+            <h3>DrenoModeladora</h3>
+            <p>Técnica de massagem estética que combina drenagem linfática (parareduzir inchaço e eliminar líquidos) com massagem modeladora (para ajudar a modelar o corpo).</p>
             <div class="price">R$ 200,00</div>
         </div>
 
         <div class="card">
-            <h3>Massagem Desportiva</h3>
-            <p>Indicada para quem pratica atividades físicas. Auxilia na prevenção de lesões, recuperação muscular e melhora do desempenho.</p>
-            <div class="price">R$ 250,00</div>
+            <h3>Limpeza de Pele</h3>
+            <p>Limpeza profunda com extração, esfoliação com pelling de diamante, hidratação e argilaterapia.</p>
+            <div class="price">R$ 150,00</div>
         </div>
 
         <div class="card">
-            <h3>Liberação Miofascial</h3>
-            <p>Técnica profunda que atua diretamente na fáscia muscular, reduzindo dores, restrições de movimento e melhorando a mobilidade.</p>
-            <div class="price">R$ 250,00</div>
+            <h3>Carboxterapia</h3>
+            <p>Injeções de gás carbônico (CO₂ medicinal) para melhorar a circulação, estimular colágeno e reduzir gordura localizada, estrias, celulite e flacidez.</p>
+            <div class="price">R$ 350,00 <br>(4 sessões)</div>
         </div>
 
+        <div class="card">
+            <h3>Heccus Turbo</h3>
+            <p>Ultrassom de alta potência com correntes elétricas para agir de forma intensa na gordura localizada, celulite e retenção de líquidos.</p>
+            <div class="price">R$ 350,00 <br>(4 sessões)</div>
+        </div>
+
+        <div class="card">
+            <h3>Radiofrequência</h3>
+            <p>Ondas eletromagnéticas para aquecer as camadas profundas da pele, estimulando colágeno, elastina e melhorando a firmeza e qualidade da pele.</p>
+            <div class="price">R$ 400,00 <br>(4 sessões)</div>
+        </div>
+
+        <div class="card">
+            <h3>Vacuoterapia + Manta Detox</h3>
+            <p>Ativa a circulação, quebra a celulite, modela, acelera o metabolismo, elimina líquidos e toxinas liberadas pela sucção.</p>
+            <div class="price">R$ 300,00 <br>(4 sessões)</div>
+        </div>
+
+        <div class="card">
+            <h3>Depilação a Laser</h3>
+            <p>Ativa a circulação, quebra a celulite, modela, acelera o metabolismo, elimina líquidos e toxinas liberadas pela sucção.</p>
+            <div class="price">R$ 400,00 <br>(5 sessões)</div>
+        </div>
+
+        <div class="card">
+            <h3>Jato de Plasma</h3>
+            <p> Tecnologia avançada para rejuvenescimento da pele, estimula a produção de colágeno e melhora a textura e elasticidade da pele.</p>
+            <div class="price">R$ 200,00</div>
+        </div>
+
+        <div class="card">
+            <h3>Criolipólise</h3>
+            <p>Elimina até 30% da gordura localizada através do resfriamento controlado das células de gordura.</p>
+            <div class="price">R$ 300,00 <br>(1 sessão)</div>
+        </div>
     </div>
 </section>
 
@@ -300,100 +431,39 @@ footer {
 
 
 
-
-
-<section class="fade-up">
-    <h2 class="section-title"  style="font-size: 2rem;">📦 Pacotes Terapêuticos</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            <h3>Plano Essencial</h3>
-            <p>Relaxante | Pedras Quentes | Ventosaterapia | Drenagem Linfática</p>
-            <div class="price">4 sessões – R$ 550,00</div>
-            <p style="font-size:0.9rem; color:#999;">(1 sessão por semana)</p>
-        </div>
-
-        <div class="card">
-            <h3>Plano Dreno-Modelador</h3>
-            <div class="price">4 sessões – R$ 700,00</div>
-            <p style="font-size:0.9rem; color:#999;">(1 sessão por semana)</p>
-        </div>
-
-        <div class="card">
-            <h3>Plano Performance</h3>
-            <p>Massagem Desportiva | Liberação Miofascial</p>
-            <div class="price">4 sessões – R$ 850,00</div>
-        </div>
-
-    </div>
-</section>
-
-
-
-
-
-
-
-<section class="fade-up">
-    <h2 class="section-title"  style="font-size: 2rem;">Serviços Estéticos</h2>
-    <div class="cards">
-        <div class="card"><h3>Limpeza de Pele</h3><div class="price">R$ 120,00</div></div>
-        <div class="card"><h3>Carboxterapia</h3><div class="price">R$ 350,00 <br>(4 sessões)</div></div>
-        <div class="card"><h3>Heccus Turbo</h3><div class="price">R$ 350,00 <br>(4 sessões)</div></div>
-        <div class="card"><h3>Radiofrequência</h3><div class="price">R$ 400,00 <br>(4 sessões)</div></div>
-        <div class="card"><h3>Ultravacuum + Manta Detox</h3><div class="price">R$ 300,00 <br>(4 sessões)</div></div>
-        <div class="card"><h3>Depilação a Laser</h3><div class="price">R$ 400,00 <br>(8 sessões)</div></div>
-        <div class="card"><h3>Jato de Plasma</h3><div class="price">R$ 200,00</div></div>
-        <div class="card"><h3>Criolipólise</h3><div class="price">R$ 250,00</div></div>
-    </div>
-</section>
-
-
-
-
-
-
-
-
-<section class="dark-section">
-    <h2 class="section-title"style="font-size: 2rem;">Programas Exclusivos EFC</h2>
+<section class="fundo2">
+    <h2 class="section-title"style="font-size: 2rem;"><br>Estruturação</br> Funcional Corporal</h2>
 
     <div class="cards">
 
         <div class="card">
             <h3>✨ EFC - Shape</h3>
-            <div class="price">R$ 600,00 / mensal</div>
+            <div class="price">R$ 1000,00 / 5 sessões</div>
             <ul>
                 <li>Redução de medidas</li>
                 <li>Definição corporal</li>
-                <li>Melhora da textura da pele</li>
-                <li>Redução de gordura localizada</li>
+                <li>Redução de gordura</li>
                 <li>Drenagem estratégica</li>
-                <li>Técnicas modeladoras</li>
-                <li>Heccus Turbo</li>
-                <li>Radiofrequência</li>
-                <li>Carboxterapia</li>
-                <li>Vacumterapia</li>
-                <li>Eletroterapia</li>
+                <li>Tratamento para celulite e flacidez</li>
             </ul>
         </div>
 
         <div class="card">
             <h3>🔥 EFC - Performance</h3>
-            <div class="price">R$ 700,00 / mensal</div>
+            <div class="price">R$ 1200,00 / 5 sessões</div>
             <ul>
                 <li>Desempenho muscular</li>
                 <li>Recuperação pós-treino</li>
                 <li>Definição avançada</li>
                 <li>Tratamento de tensões profundas</li>
-                <li>Massagem esportiva</li>
-                <li>Liberação miofascial</li>
-                <li>Drenagem estratégica</li>
-                <li>Integração com tecnologias estéticas</li>
+                <li>Drenagem estratégicas</li>
+                <li>Redução de medidas</li>
+                <li>Redução de gordura</li>
+                <li>Mobilidade</li>
             </ul>
         </div>
-
+    <p style="color:#cfcfcf; max-width:700px; margin-bottom:-20px; margin-top: 25px;">
+Os tratamentos EFC combinam técnicas de <b>massoterapia e estética</b> aplicadas de forma personalizada e estratégica, visando resultados <b>funcionais, eficientes e duradouro.</b>    </p>
     </div>
 </section>
 
@@ -404,7 +474,7 @@ footer {
 
 
 
-<section class="fade-up">
+<section class="fundo">
     <h2 class="section-title"  style="font-size: 2rem;">Resultados reais, transformações visíveis</h2>
     <p style="color:#cfcfcf; max-width:700px; margin-bottom:-20px; margin-top: 25px;">
         Cada imagem representa um protocolo personalizado, respeitando biotipo,
@@ -413,13 +483,13 @@ footer {
 
     <div class="cards">
         <div class="card">
-            <img src="Antes-e-depois1.jfif"
+            <img src="Imagens/Antes-e-depois1.jfif"
                  style="width:90%; border-radius:4px; margin-bottom:15px;margin-left: 20px;">
             <p style="font-size:0.9rem; color:#bfa56a;margin-left: 30px">1 sessão de protocolo EFC Shape</p>
         </div>
 
         <div class="card">
-            <img src="Antes-e-depois2.jpg"
+            <img src="Imagens/Antes-e-depois2.jpg"
                  style="width:65%; border-radius:4px; margin: bottom 15px;margin-left: 50px;">
             <p style="font-size:0.9rem; color:#bfa56a;margin-left: 50px;">1 sessão de protocolo EFC Performance</p>
         </div>
@@ -431,11 +501,76 @@ footer {
 </section>
 
 
+<section class="fundo">
+    <h2 class="section-title" style="font-size: 2rem;">Pagamento</h2>
+ 
+    <div class="cards">
+
+        <div class="card">
+                <h2 class="section-title" style="font-size: 1.25rem;">Cartão de Crédito</h2>
+
+        </div>
+
+        <div class="card">
+                <h2 class="section-title" style="font-size: 1.25rem;">Dinheiro e Pix</h2>
+        </div>
+    </div>
+    <p style="margin-top:20px; font-size:0.8rem; color:#ffffff; text-align: center;">
+        PARCELAMOS EM ATÉ <b>12X SOB TAXA DA MÁQUINA.</b> (NOS CARTÃO DE CRÉDITO)<br> 
+        <br>
+        PARA MANTER A ORGANIZAÇÃO DOS 
+        ATENDIMENTOS, SOLICITAMOS PAGAMENTO NA
+        RECEPÇÃO <b>ANTES</b> DO INÍCIO DAS SESSÕES OU
+        PROCEDIMENTOS.<br>
+        <br>
+        VOUCHERS PROMOCIONAIS OU VALES
+        PRESENTES, SÃO CONFIRMADOS MEDIANTE
+        PAGAMENTO <b>ANTECIPADO</b> E ENVIO DO COMPROVANTE.<br>
+        <br>
+        TRABALHAMOS COM HORA MARCADA.<br>
+        <br>
+        <b>CONTATO:</b><br> 
+        11990015920 <br> <b>TAMIRES REYS</b>
+    </p>
+
+</section>
 
 
 
 
-<section class="dark-section fade-up">
+
+
+<section class="fundo">
+    <h2 class="section-title"  style="font-size: 2rem;">Localização</h2>
+    <p style="margin-top:20px; font: size 0.9em; color:#ffffff; text-align: center;">
+        Av Rui Barbosa N• 2177 - Vila Santa Teresinha <br>
+        Clínica Estética Regiane Sanches
+    <div style="text-align:center; margin-top:30px;">
+        <a href="https://www.google.com/maps/place/Cl%C3%ADnica+Est%C3%A9tica+Regiane+Sanches/@-23.5489138,-46.5836982,17z/data=!3m1!4b1!4m5!3m4!1s0x94cf0193dfad9aa9:0xbbd5fd0d7c972178!8m2!3d-23.5489138!4d-46.5815095"
+           target="_blank"
+           class="btn">
+           Ver no Google Maps
+        </a>
+        <p style="margin-top:20px; font: size 0.9em; color:#ffffff; text-align: center;">
+        Segunda a Sexta:<br> 
+        9h às 19h<br> 
+        Sábado:<br>
+        9h às 15h
+         <br><br> <br><br>
+        </p>
+    </div>
+    </p>
+
+
+
+
+
+
+
+
+    
+
+<section class=" fade-up">
     <h2 class="section-title" style="font-size: 2rem;">Experiências de quem viveu a transformação</h2>
 
     <div class="cards">
@@ -470,8 +605,9 @@ footer {
 <div style="text-align:center; margin-top:50px;">
         <a href="https://www.google.com/search?q=Massoterapia+Reys#lrd=0x94cf0193dfad9aa9:0xbbd5fd0d7c972178,1"
            target="_blank"
-           class="btn">
-           Clique aqui para mais avaliações
+           class="btn"
+           style="text-align:center; margin-top:30px;">
+           Avaliações
         </a>
     </div>
 
@@ -483,14 +619,16 @@ footer {
 
 
 
-<section class="dark-section fade-up">
+<section class="fade-up">
     <h2 class="section-title"  style="font-size: 2rem;">Diferenciais</h2>
-    <ul>
-        <li>✔ Protocolos personalizados</li>
-        <li>✔ Atendimento exclusivo</li>
-        <li>✔ Estratégia focada em resultado</li>
-        <li>✔ Ambiente sofisticado</li>
-    </ul>
+    <div class="cards">
+        <div class="card">
+        <p>                 
+        ✔ Protocolos personalizados<br>
+        ✔ Atendimento exclusivo<br>
+        ✔ Estratégia focada em resultado<br>   
+        </p> 
+    </div>    
 </section>
 
 
@@ -499,7 +637,7 @@ footer {
 
 
 
-<section class="dark-section fade-up">
+<section class=" fade-up">
     <h2 class="section-title"  style="font-size: 2rem;">⚜️ Posicionamento Profissional</h2>
 
     <div class="cards">
@@ -525,11 +663,12 @@ footer {
 
 
 
-<footer>
-    <h1>Agende sua avaliação</h1>
+<section class="fade-up">
+    <h2 class="section-title"  style="font-size: 2rem;">Agende sua avaliação</h2>
     <br><br>
-    <a href="https://wa.me/5511990015920" class="btn">Agendar via WhatsApp</a>
-</footer>
+    <a href="https://wa.me/5511990015920" class="btn" target="_blank"
+        style="text-align:center; margin-top:30px;">Clique aqui</a>
+
 
 <script>
 const elements = document.querySelectorAll(".fade-up");
@@ -544,9 +683,7 @@ window.addEventListener("scroll", () => {
 </script>
 
 </body>
-
 </html>
-
 
 
 
